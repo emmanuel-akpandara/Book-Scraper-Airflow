@@ -1,6 +1,6 @@
 #dag - directed acyclic graph
 
-#tasks : 1) fetch amazon data (extract) 2) clean data (transform) 3) create and store data in table on postgres (load)
+#tasks : 1) fetch bol.com data (extract) 2) clean data (transform) 3) create and store data in table on postgres (load)
 #operators : Python Operator and PostgresOperator
 #hooks - allows connection to postgres
 #dependencies
@@ -14,7 +14,7 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 
-#1) fetch bol.com data (extract) 2) clean data (transform)
+#1) fetch bol.com data (extract) 2) clean data (transform), Not really needed in this case
 
 
 
