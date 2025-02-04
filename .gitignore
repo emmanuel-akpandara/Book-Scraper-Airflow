@@ -1,0 +1,4 @@
+venv/
+logs/
+.env
+config/secrets.yml
