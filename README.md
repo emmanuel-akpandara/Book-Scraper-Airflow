@@ -14,7 +14,7 @@ Supports Docker deployment via docker-compose.yaml.
 
 Pushes extracted data to XCom for further processing.
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 Python (Requests, BeautifulSoup, Pandas)
 
